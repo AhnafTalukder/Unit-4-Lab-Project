@@ -1,0 +1,127 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.view-panel{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.art-container{
+
+    width: 95%;
+    height: 700px;
+    display: flex;
+}
+
+.art-image{
+    
+    width: 70%;
+    height: 100%;
+    background: rgb(240, 240, 240);
+  
+
+}
+
+.art-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.art-description{
+    color: white;
+    width: 30%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+  
+}
+
+.art-description h1{
+    font-size: 45px;
+}
+
+.art-keywords ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items:normal;
+}
+
+.art-keywords ul li{
+    cursor: pointer;
+    text-decoration: 5px underline rgba(196, 16, 16, 0.8);
+    font-size: 25px;
+    list-style: none;
+    margin: 20px 20px 20px 0px;
+
+}
+
+.art-description p{
+    font-size: 20px;
+    line-height: 170%;
+}
+
+.btn{
+  
+    margin-top: 20px;
+    background: transparent;
+    border: 5px solid rgba(196, 16, 16, 0.8); /* Set the outline-style border */
+    color: #fcf2f2; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 35px; /* Adjust font size as needed */
+    transition: color 0.3s, border-color 0.3s; /* Add a smooth transition effect for color and border-color */
+    cursor: pointer;
+    width: 300px;
+}
+
+
+.btn:hover{
+    background-color: white;
+    color: black;
+
+    
+}
+
+
+.banned-keywords{
+    
+    padding-bottom: 50px;
+    color: white;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+
+}
+
+.banned-keywords ul{
+  
+    display: flex;
+    align-items:normal;
+}
+
+.banned-keywords ul li{
+    cursor: pointer;
+    font-size: 25px;
+    list-style: none;
+    margin: 10px;
+    background-color: rgba(196, 16, 16, 0.8);
+    padding: 20px;
+
+
+}
+
+
+
